@@ -1,6 +1,14 @@
-<h1>Here's the Car!</h1>
-<p>Make Model: @Model.GetMakeModel()</p>
-<p>Car Price: @Model.GetPrice()</p>
-<p>Car Miles: @Model.GetMiles()</p>
-<p>Car Color: @Model.GetColor()</p>
-<p>Car Description: @Model.GetDescription()</p>
+<h1>List of Cars</h1>
+<ol>
+  @foreach (var car in Model)
+  {
+    <li>
+      <h4>Make Model: @car.GetMakeModel()</h4>
+      <p>Car Price: @car.GetPrice()</p>
+      <p>Car Miles: @car.GetMiles()</p>
+      <p>Car Color: @car.GetColor()</p>
+      <p>Car Description: @car.GetDescription()</p>
+    </li>
+  }
+</ol>
+<a href="/">Add a new car.</a>

@@ -11,18 +11,18 @@ namespace Car.Controllers
       [HttpGet("/Cars")]
       public ActionResult Index()
       {
-          // CarObject newCarObject = new CarObject(Request.Query["make-model"],Request.Query["price"],Request.Query["miles"],Request.Query["color"],Request.Query["description"]);
-          CarObject newCarObject = new CarObject();
-          newCarObject.SetMakeModel(Request.Query["make-model"]);
-          newCarObject.SetPrice(Request.Query["price"]);
-          newCarObject.SetMiles(Request.Query["miles"]);
-          newCarObject.SetColor(Request.Query["color"]);
-          newCarObject.SetDescription(Request.Query["description"]);
+          CarObject newCarObject = new CarObject(Request.Query["make-model"],Request.Query["price"],Request.Query["miles"],Request.Query["color"],Request.Query["description"]);
+          // CarObject newCarObject = new CarObject();
+          // newCarObject.SetMakeModel(Request.Query["make-model"]);
+          // newCarObject.SetPrice(Request.Query["price"]);
+          // newCarObject.SetMiles(Request.Query["miles"]);
+          // newCarObject.SetColor(Request.Query["color"]);
+          // newCarObject.SetDescription(Request.Query["description"]);
 
 
-          // newCar.Save();
+          newCarObject.Save();
           // List<CarObject> result = new List<CarObject>();
-          return View(newCarObject);
+          return View(CarObject.GetAll());
           // return new EmptyResult();
       }
 
