@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/CarTests.deps.json
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/CarTests.runtimeconfig.json
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/CarTests.runtimeconfig.dev.json
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/CarTests.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/CarTests.pdb
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/Car.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/bin/Debug/netcoreapp1.1/Car.pdb
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/obj/Debug/netcoreapp1.1/CarTests.AssemblyInfo.cs
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/obj/Debug/netcoreapp1.1/CarTests.dll
+/Users/Guest/Desktop/Car.Solutions/Car.Tests/obj/Debug/netcoreapp1.1/CarTests.pdb
